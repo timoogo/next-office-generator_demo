@@ -8,4 +8,10 @@ npm i next-office-generator
 
 
 
-mettre en 
+Renommee le fichier .env.example en .env et remplissez les champs
+```bash
+npx prisma migrate dev --name init
+```
+```bash
+npx prisma generate
+```
