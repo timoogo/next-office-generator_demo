@@ -40,7 +40,7 @@ const GenericPage: React.FC<GenericPageProps> = ({
         </div>
 
         <Link
-          className="px-6 py-2 rounded-md text-white transition duration-200 ease-in-out bg-blue-600 hover:bg-blue-700"
+          className="px-6 py-2 rounded-md m-5 text-white transition duration-200 ease-in-out bg-blue-600 hover:bg-blue-700"
           href={getCreateURLFor(entityConfig.entityName)}
         >
           Create a {entityConfig.entityName}
